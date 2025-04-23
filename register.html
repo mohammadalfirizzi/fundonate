@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - FunDonate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body
+    class="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-100 via-emerald-100 to-lime-100 font-sans">
+    <div class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md">
+        <h2 class="text-3xl font-bold text-center text-green-600 mb-6">🌱 Daftar FunDonate</h2>
+        <p class="text-center text-gray-500 mb-6">Bergabung untuk berdonasi dengan cara menyenangkan!</p>
+
+        <form class="space-y-5">
+            <div>
+                <label class="block mb-1 text-sm font-medium text-gray-700">Nama Lengkap</label>
+                <input type="text"
+                    class="w-full px-4 py-2 border border-green-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
+                    placeholder="Nama Kamu" required />
+            </div>
+            <div>
+                <label class="block mb-1 text-sm font-medium text-gray-700">Email</label>
+                <input type="email"
+                    class="w-full px-4 py-2 border border-green-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
+                    placeholder="kamu@email.com" required />
+            </div>
+            <div>
+                <label class="block mb-1 text-sm font-medium text-gray-700">Password</label>
+                <input type="password"
+                    class="w-full px-4 py-2 border border-green-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
+                    placeholder="********" required />
+            </div>
+
+            <button type="submit"
+                class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition-all duration-200">
+                Daftar
+            </button>
+
+            <p class="text-sm text-center text-gray-600">Sudah punya akun?
+                <a href="login.html" class="text-green-600 hover:underline">Masuk di sini</a>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
